@@ -1,0 +1,776 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.continar {
+    width: 1326px;
+    margin: auto;
+}
+
+.homeLogo img {
+    width: 100%;
+}
+
+.homeLogo {
+    width: 200px;
+    float: left;
+}
+
+header {
+    overflow: hidden;
+    background: rgb(14, 19, 88);
+    position: fixed;
+    width: 100%;
+}
+
+.homeMenu {
+    width: 606px;
+    float: right;
+}
+
+ul.menuWreper li {
+    float: left;
+    list-style: none;
+    margin: 24px 18px;
+}
+
+ul.menuWreper li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+}
+
+ul.menuWreper li a:hover {
+    color: #73e7db;
+    text-style: unset;
+    font-style: initial;
+    text-shadow: 1px 0px 16px #00ffe7;
+
+}
+
+.mypopailepic img {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 39px -4px black;
+    border-radius: 70%;
+}
+
+.mypopailepic {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.nameOfme {
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    padding: 20px 0;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+section#myPopaile {
+    padding-top: 92px;
+    background: linear-gradient(#1919193b, #4b4a507a), url(aboutepicme.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.hireme {
+    text-align: center;
+    padding: 20px;
+}
+
+.hireme button {
+    padding: 9px 20px;
+    border: 1px solid #0e1358;
+    font-size: 20px;
+    border-radius: 30px;
+    font-weight: 800;
+    outline: none;
+    transition: 0.3s;
+    color: white;
+    background: #0e1358;
+}
+
+.sosilemidiyaOfme {
+    width: 400px;
+    margin: auto;
+    padding: 21px 0px;
+}
+
+.sosilemidiyaOfme i {
+    margin: 7px 10px;
+    font-size: 37px;
+    padding: 10px;
+    color: #7bf8eb;
+    border-radius: 10px;
+    background: #0e1358;
+}
+
+.aboutmySelf {
+    width: 20px;
+    text-align: center;
+    margin: auto;
+    padding: 12px 3px;
+    border: 2px solid white;
+    border-radius: 43%;
+}
+
+.abmypic {
+    width: 500px;
+    float: left;
+    padding: 30px;
+}
+
+.abmypic img {
+    width: 100%;
+}
+
+.aboutemysefeWrp {
+    overflow: hidden;
+}
+
+.abouteMetext {
+    padding: 20px 0;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #7af6e9;
+}
+
+.aboutedicpart {
+    width: 728px;
+    float: right;
+}
+
+.abtitle {
+    padding: 24px 0px 0px 0px;
+    font-size: 40px;
+    color: #75ebdf;
+    font-weight: 900;
+    font-family: cursive;
+}
+
+.abmname {
+    padding: 10px 0px;
+    color: #f0af19;
+    font-family: system-ui;
+    font-size: 50px;
+}
+
+.abmydic {
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    letter-spacing: unset;
+    color: #161e25;
+}
+
+.sSingleBox {
+    width: 400px;
+    padding: 16px;
+    background: gainsboro;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    float: left;
+}
+
+.sSingleBox .sSbi {
+    text-align: center;
+    padding: 14px 0px;
+    font-size: 70px;
+    transition: 0.2s;
+}
+
+.sSingleBox h2 {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #191f25;
+    padding: 20px 0px;
+    font-family: system-ui;
+}
+
+.sSingleBox span {
+    font-size: 21px;
+}
+
+.sSingleBox h5 {
+    padding: 14px 0;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 200;
+    line-height: 1.5;
+    text-align: center;
+    color: #14191d;
+}
+
+.servicetext {
+    text-align: center;
+    padding: 30px 0;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #f0af19;
+    font-size: 42px;
+    font-family: -webkit-pictograph;
+}
+
+.sSingleBox .sSbi:hover {
+    color: #7bf8eb;
+    text-shadow: 0px 1px 8px #518a84;
+}
+
+.hireme button:hover {
+    background: #7bf8eb;
+    color: black;
+    border: 1px solid #7bf8eb;
+    box-shadow: 0px 0px 22px 6px #00fff3b8;
+}
+
+
+
+#mySkiellWreper {
+    background: rgb(52, 52, 66);
+    padding: 20px 0px;
+}
+
+.skills {
+    width: 896px;
+    margin: 60px auto;
+    color: #f9f9f9;
+}
+
+.skills h1 {
+    margin: 20px 0;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.bar {
+    background: #132f4e;
+    display: block;
+    border-radius: 50px;
+    height: 6px;
+    border: 1px solid rgb(255 255 255 / 0%);
+    overflow: hidden;
+    box-shadow: 0 0px 13px 1px #143b52;
+}
+
+.bar span {
+    height: 6px;
+    float: left;
+    background: #59e7e0;
+
+}
+
+.html {
+    width: 95%;
+    animation: html 2s;
+
+}
+
+.css {
+    width: 90%;
+    animation: css 2s;
+
+}
+
+.javascript {
+    width: 75%;
+    animation: javascript 2s;
+
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 95%;
+    }
+
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+
+}
+
+@keyframes javascript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+
+}
+
+@keyframes jquriy {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 87%;
+    }
+
+}
+
+
+@keyframes butstap {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 84%;
+    }
+
+}
+
+@keyframes php {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
+    }
+
+}
+
+@keyframes python {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 20%;
+    }
+
+}
+
+.jquriy {
+    width: 87%;
+    animation: jquriy 2s;
+
+}
+
+.butstap {
+    width: 84%;
+    animation: butstap 2s;
+
+}
+
+.php {
+    width: 50%;
+    animation: php 2s;
+
+}
+
+.python {
+    width: 20%;
+    animation: python 2s;
+
+}
+
+.skills ul li {
+    margin: 44px 0px;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.myservicewreper {
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.skills ul li h3 {
+    font-family: sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.popaileWreper {
+    padding: 48px 0px 124px 0px;
+}
+
+.siteName {
+    text-align: center;
+    font-size: 40px;
+    color: #4992d3;
+    padding: 20px 0px;
+}
+
+.serviceName {
+    text-align: center;
+    color: red;
+    font-size: 23px;
+    padding: 10px 0px;
+}
+
+.servicePaymentmetor {
+    text-align: center;
+    font-weight: bold;
+    color: #333333;
+    padding: 5px 0px;
+}
+
+.sosilecontrat {
+    text-align: center;
+    padding: 5px 0px;
+    color: #1000ff;
+    font-family: cursive;
+}
+
+.sosilecontratFb {
+    text-align: center;
+}
+
+.sosilecontratEmail {
+    padding: 5px 0px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.sosilecontratFb a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.newTelegramnumber {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #9100ff;
+    padding: 8px 0px;
+}
+
+.thanktext {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    color: #02ff02;
+}
+
+.aedRat {
+    text-align: center;
+    font-size: 20px;
+    padding: 8px 0px;
+    font-weight: 600;
+    color: #0008ff;
+}
+
+.usdRat {
+    font-size: 20px;
+    text-align: center;
+    color: #262cfb;
+    font-weight: 600;
+}
+section#affiliateWriper {
+    margin-bottom: 70px;
+}
+section#getServices {
+    margin: 30px 0px;
+}
+
+section#meandMyabout {
+    margin: 30px 0px;
+}
+footer{
+	background: #0072ff;
+	color: #ffffff;
+	text-align:center;
+}
+
+
+#allBlocks p{
+	font-size:13px;
+}
+#allBlocks{
+	width:1170px;
+	margin:auto;
+	padding:20px 0px;
+	overflow:hidden;
+}
+.affiliate {
+    width: 750px;
+    margin: auto;
+}
+
+.affiliate h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 250;
+    margin-bottom: 13px;
+    padding-top: 50px;
+}
+
+.affiliate span {
+    text-align: center;
+}
+
+.affiliateImg img {
+    width: 100%;
+}
+
+.affiliateImg {
+    width: 700px;
+    margin: auto;
+}
+.getServiceswriper {
+    background: #1d1d1d;
+    overflow: hidden;
+    padding: 16px;
+    display: block;
+    border-radius: 10px;
+}
+
+.getServicesIcone {
+    width: 200px;
+    float: left;
+}
+
+.getServicesIcone a {
+    font-size: 65px;
+    padding: 18px;
+    margin: 11px;
+    display: block;
+    color: #c7c7c7;
+}
+
+.getServicesQuick {
+    width: 700px;
+    display: block;
+    float: left;
+}
+
+.quickOrderwriper h1 {
+    font-size: 20px;
+    padding: 25px 0px;
+    font-weight: 400;
+    color: #c7c7c7;
+}
+
+.quickOrderstep h6 {
+    font-weight: 300;
+    font-size: 14px;
+    color: #c7c7c7;
+}
+.startButton {
+    width: 200px;
+    float: right;
+}
+
+.startButton button {
+    padding: 8px 12px;
+    font-size: 26px;
+    margin: 21% 30%;
+    border-radius: 12px;
+    border: solid;
+}
+section#servicesItem {
+    padding: 20px 0px;
+}
+
+.servicesIBox {
+    overflow: hidden;
+    display: block;
+}
+
+.sIsBox {
+    transition: 1.05s;
+    width: 367px;
+    margin: 26px 37px;
+    float: left;
+    height: 350px;
+    background: white;
+    display: block;
+    border-radius: 20px;
+    border: 1px solid;
+}
+.ippic img {
+    width: 100%;
+}
+
+.ippic {
+    width: 250px;
+    margin: auto;
+}
+
+.sIsBox h3 {
+    transition: 0.5s;
+    text-align: center;
+    font-family: revert;
+    font-size: 27px;
+    padding: 10px 0px;
+    font-weight: 400;
+}
+.sIsBox:hover {
+    border-radius: 20px;
+    border: 1px solid #52a5de;
+}
+
+.sIsBox:hover {
+    color: #4e9bd7;
+}
+ul.dropdown {
+    width: 209px;
+    display: block;
+    transform-origin: top;
+    transform: rotateY(0deg);
+    opacity: 0;
+    position: absolute;
+    margin-top: 69px;
+    background: #0000020d;
+}
+
+ul.dropdown li {
+    float: none;
+}
+
+
+ul.dropdown li a {
+    font-size: 17px;
+    position: relative;
+    padding: 6px 33px;
+    display: block;
+    width: inherit;
+    color: white;
+}
+.dropdownWreper:hover ul.dropdown {
+    opacity: 1;
+    transform-origin: bottom;
+    transform: rotateY(15);
+}
+ul.dropdown2 {
+    position: absolute;
+    opacity: 0;
+    top: 23px;
+    right: -136px;
+    background: #38383873;
+}
+.dropdownWreper2:hover ul.dropdown2 {
+    opacity: 1;
+    transform-origin: bottom;
+    transform: rotateY(15);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    box-sizing: border-box;
+}
+#body{
+    position: relative;
+    min-height: 100vh;
+}
+.image__grid{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.image__grid img{
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    object-fit: contain;
+    overflow: hidden;
+    cursor: pointer;
+    height: 100%;
+}
+.popup img {
+    width: 100%;
+    border-radius: 30px;
+    padding: 20px;
+    padding-top: 0;
+}
+.popup {
+    position: fixed;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    border-radius: 10px;
+    width: 50%;
+    max-height: 100vh;
+    z-index: 6;
+    opacity: 0;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+.popup a{
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    float: right;
+    padding: 20px;
+    font-family: system-ui;
+}
+.backdrop{
+    background: rgba(0, 0, 0, 0.349);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 0;
+}
+.active{
+    display: block;
+}
+.activePopup{
+    top: 50%;
+    opacity: 1;
+}
+.backgroundWriferimg img {
+    width: 100%;
+}
